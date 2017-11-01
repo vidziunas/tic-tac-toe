@@ -14,9 +14,6 @@
 		A03E4A5E1FA90EBC00B4F932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03E4A5C1FA90EBC00B4F932 /* LaunchScreen.storyboard */; };
 		A03E4A691FA90EBD00B4F932 /* tic_tac_toeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E4A681FA90EBD00B4F932 /* tic_tac_toeTests.swift */; };
 		A03E4A741FA90EBD00B4F932 /* tic_tac_toeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E4A731FA90EBD00B4F932 /* tic_tac_toeUITests.swift */; };
-		A03E4A841FA90FAE00B4F932 /* cross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A03E4A811FA90FAE00B4F932 /* cross.jpg */; };
-		A03E4A851FA90FAE00B4F932 /* lentele.png in Resources */ = {isa = PBXBuildFile; fileRef = A03E4A821FA90FAE00B4F932 /* lentele.png */; };
-		A03E4A861FA90FAE00B4F932 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = A03E4A831FA90FAE00B4F932 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +47,6 @@
 		A03E4A6F1FA90EBD00B4F932 /* tic tac toeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic tac toeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E4A731FA90EBD00B4F932 /* tic_tac_toeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toeUITests.swift; sourceTree = "<group>"; };
 		A03E4A751FA90EBD00B4F932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A03E4A811FA90FAE00B4F932 /* cross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cross.jpg; path = ../../cross.jpg; sourceTree = "<group>"; };
-		A03E4A821FA90FAE00B4F932 /* lentele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lentele.png; path = ../../lentele.png; sourceTree = "<group>"; };
-		A03E4A831FA90FAE00B4F932 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nought.png; path = ../../nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +103,6 @@
 				A03E4A5A1FA90EBC00B4F932 /* Assets.xcassets */,
 				A03E4A5C1FA90EBC00B4F932 /* LaunchScreen.storyboard */,
 				A03E4A5F1FA90EBC00B4F932 /* Info.plist */,
-				A03E4A811FA90FAE00B4F932 /* cross.jpg */,
-				A03E4A821FA90FAE00B4F932 /* lentele.png */,
-				A03E4A831FA90FAE00B4F932 /* nought.png */,
 			);
 			path = "tic tac toe";
 			sourceTree = "<group>";
@@ -243,10 +234,7 @@
 			files = (
 				A03E4A5E1FA90EBC00B4F932 /* LaunchScreen.storyboard in Resources */,
 				A03E4A5B1FA90EBC00B4F932 /* Assets.xcassets in Resources */,
-				A03E4A861FA90FAE00B4F932 /* nought.png in Resources */,
-				A03E4A841FA90FAE00B4F932 /* cross.jpg in Resources */,
 				A03E4A591FA90EBC00B4F932 /* Main.storyboard in Resources */,
-				A03E4A851FA90FAE00B4F932 /* lentele.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LMTS586BX;
 				INFOPLIST_FILE = "tic tac toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com..tic-tac-toe";
@@ -453,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LMTS586BX;
 				INFOPLIST_FILE = "tic tac toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com..tic-tac-toe";
